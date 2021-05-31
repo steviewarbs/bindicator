@@ -10,6 +10,20 @@ h1{
   
 }
 
+h2{
+  font-family: 'Pattaya', sans-serif;
+  font-size: 50px;
+  color: white
+  
+}
+
+h3{
+  font-family: 'Pattaya', sans-serif;
+  font-size: 30px;
+  color: gold
+  
+}
+
 .App {
   text-align: center;
 }
