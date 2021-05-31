@@ -1,6 +1,6 @@
 
-import Green from '../src/green_bin.png';
-import Black from '../src/black_bin.png';
+import Green from '../images/green_bin.png';
+import Black from '../images/black_bin.png';
 
 const bins = [
     { date: "Monday 31st May 2021", type: "general waste + recycling", img: Black },

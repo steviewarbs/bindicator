@@ -1,5 +1,5 @@
-import "./App.css";
-import Bins from "./Bins";
+import "../components/App.css";
+import Bins from "../data/Bins";
 
 function App() {
 
