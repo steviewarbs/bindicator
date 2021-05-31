@@ -6,21 +6,25 @@ body{
 h1{
   font-family: 'Pattaya', sans-serif;
   font-size: 80px;
-  color: white
+  color: white;
+  text-align: center;
   
 }
 
 h2{
   font-family: 'Pattaya', sans-serif;
   font-size: 50px;
-  color: white
+  color: white;
+  text-align: center;
   
 }
 
 h3{
   font-family: 'Pattaya', sans-serif;
   font-size: 30px;
-  color: gold
+  color: gold;
+  text-align: center;
+
   
 }
 
