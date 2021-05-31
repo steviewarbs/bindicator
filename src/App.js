@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Bindicator</h1>
-      <h2>Mike 'n' Warbs - 2021 May-December Bindicator...</h2>
+      <h2>Mike 'n' Warbs Bins...</h2>
       {Bins.map((val) => {
         return (
           <div>
