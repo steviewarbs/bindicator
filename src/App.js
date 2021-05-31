@@ -49,9 +49,9 @@ function App() {
       {bins.map((val) => {
         return (
           <div>
-            <p>
+            <h2>
               {val.date} {val.type}{" "}
-            </p>{" "}
+            </h2>{" "}
             <img src={val.img} alt="bin_type"></img>;
           </div>
         );
