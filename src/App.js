@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Green from '../src/green_bin.jpg';
+import Grey from '../src/grey_bin.jpg';
 
 function App() {
+  // const bins = [
+  //   { date: new Date("January 4, 2021 09:00:00"), type: "recycling", img: Green },
+  //   { date: new Date("January 11, 2021 09:00:00"), type: "normal", img: Grey },
+  // ];
+
+  var date = new Date();
+
+    const bins = [
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+    { date: "Monday 4th January 2021", type: "recycling", img: Green },
+    { date: "Monday 11th January 2021", type: "general waste", img: Grey },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Bindicator</h1>
+      <h3>{new Date(date).toString()}</h3>
+      <h4>This weeks bin is...</h4>
+      {bins.map((val) => {
+        return (
+          <div>
+            <p>
+              {val.date} {val.type}{" "}
+            </p>{" "}
+            <img src={val.img} alt="bin_type"></img>;
+          </div>
+        );
+      })}
     </div>
   );
 }
 
 export default App;
+
+
