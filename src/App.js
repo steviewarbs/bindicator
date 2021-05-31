@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <h1>Bindicator</h1>
-      <h3>{"Current date = " + new Date(date).toString()}</h3>
+      <h3>{"Todays date " + new Date(date).toString()}</h3>
       <h4>Rosewood Drive 2021 May-December Bindicator...</h4>
       {bins.map((val) => {
         return (

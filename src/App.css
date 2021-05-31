@@ -4,8 +4,10 @@ body{
 }
 
 h1{
-  font-size: xx-large;
-  font-weight: bolder;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 80px;
+  color: white
+  
 }
 
 .App {
