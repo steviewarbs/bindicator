@@ -1,13 +1,9 @@
 import "./App.css";
-import Green from '../src/green_bin.jpg';
-import Black from '../src/black_bin.jpg';
-import Recyling from '../src/recycling.jpg';
+import Green from '../src/green_bin.png';
+import Black from '../src/black_bin.png';
+
 
 function App() {
-  // const bins = [
-  //   { date: new Date("January 4, 2021 09:00:00"), type: "recycling", img: Green },
-  //   { date: new Date("January 11, 2021 09:00:00"), type: "normal", img: Grey },
-  // ];
 
   var date = new Date();
 
@@ -45,7 +41,7 @@ function App() {
     <div>
       <h1>Bindicator</h1>
       <h3>{"Current date = " + new Date(date).toString()}</h3>
-      <h4>Cheshire West, Zone B, 2021 May-December bin cycle...</h4>
+      <h4>Rosewood Drive 2021 May-December Bindicator...</h4>
       {bins.map((val) => {
         return (
           <div>
